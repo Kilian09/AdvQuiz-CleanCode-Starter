@@ -69,7 +69,6 @@ public class QuestionPresenter implements QuestionContract.Presenter {
     view.get().displayQuestion(state);
   }
 
-
   @Override
   public void onDestroy() {
     Log.e(TAG, "onDestroy()");
