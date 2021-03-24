@@ -89,7 +89,6 @@ public class QuestionPresenter implements QuestionContract.Presenter {
 
   }
 
-
   @Override
   public void onNextButtonClicked() {
     Log.e(TAG, "onNextButtonClicked()");
