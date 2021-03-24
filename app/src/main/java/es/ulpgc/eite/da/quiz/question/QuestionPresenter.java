@@ -24,7 +24,6 @@ public class QuestionPresenter implements QuestionContract.Presenter {
 
   @Override
   public void onStart() {
-    Log.e(TAG, "onStart()");
 
     // call the model
     state.question = model.getQuestion();
