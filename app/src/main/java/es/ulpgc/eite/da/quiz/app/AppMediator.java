@@ -31,6 +31,10 @@ public class AppMediator {
     return INSTANCE;
   }
 
+  public void resetCheatState() {
+    cheatState = new CheatState();
+  }
+
   public static void resetInstance() {
     INSTANCE = null;
   }

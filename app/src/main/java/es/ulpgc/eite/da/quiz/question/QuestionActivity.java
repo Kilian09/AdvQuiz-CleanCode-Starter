@@ -84,6 +84,7 @@ public class QuestionActivity
     findViewById(R.id.cheatButton).setEnabled(viewModel.cheatEnabled);
   }
 
+
   @Override
   public void resetReply() {
     ((TextView) findViewById(R.id.replyTextView))

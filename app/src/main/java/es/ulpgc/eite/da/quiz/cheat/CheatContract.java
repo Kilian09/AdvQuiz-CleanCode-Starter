@@ -19,7 +19,7 @@ public interface CheatContract {
     void onResume();
     void onStart();
     void onRestart();
-    void onDestroy();
+   // void onDestroy();
     void onBackPressed();
     void onWarningButtonClicked(int option);
   }

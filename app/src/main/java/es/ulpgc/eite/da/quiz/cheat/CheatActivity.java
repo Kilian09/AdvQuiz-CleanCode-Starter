@@ -60,12 +60,14 @@ public class CheatActivity
     finish();
   }
 
+  /*
   @Override
   protected void onDestroy() {
     super.onDestroy();
 
     presenter.onDestroy();
   }
+*/
 
   @Override
   public void displayAnswer(CheatViewModel viewModel) {
@@ -82,7 +84,6 @@ public class CheatActivity
     ((TextView) findViewById(R.id.answerTextView))
         .setText(R.string.empty_answer);
   }
-
 
   public void onWarningButtonClicked(View view) {
 
